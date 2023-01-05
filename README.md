@@ -5,6 +5,8 @@ Projeto com fins de criar uma interface de cadastro de uma nova senha do usuári
 para criar essa senha tera que seguir as regras descrita e depois confirmar sua senha novamente.
 </h2>
 
+<img src="https://s3.gifyu.com/images/2023-01-05-18-56-32.gif" />
+
 <span>Tecnologia utilizada :</span>
 <ul>
 <li>HTML</li>
