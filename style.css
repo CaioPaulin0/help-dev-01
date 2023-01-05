@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #bccfcf;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.box{
+    width: 600px;
+    height: 250px;
+    background-color: rgb(253, 253, 253);
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.185);
+    border-radius: 5px;
+}
+
+.box__info p::first-line{
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.box__form{
+    width: 203px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.box__info__text span{
+    color: #535353;
+    font-size: 1.25rem;
+}
+
+.box__form input{
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 5px 8px;
+    margin-top: 5px;
+    border: 1px solid grey;
+    border-radius: 2px;
+}
+
+.box__form p{
+    font-size: 0.8rem;
+    color: rgb(255, 82, 82);
+}
+
+#checkRules{
+    width: 100%;
+    font-size: 0.8rem;
+    color: rgb(255, 82, 82);
+}
+
+.box__info{
+    width: max-content;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.box__form button{
+    border: none;
+    background-color: rgb(57, 150, 150);
+    color: white;
+    font-size: 1.2rem;
+    padding: 5px 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.box__form button:hover{
+    background-color: rgb(47, 124, 124);
+}
+
+.box__info__text{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box__info__check{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box__info__check p{
+    margin: 5px 0;
+    color: #535353;
+}
+
+.box__info__check span{
+    width: 10px;
+    height: 10px;
+    margin: auto 0;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.box__form__check--active{
+    display: flex;
+}
+
+.box__form__check--active span{
+    background-color: green;
+}
+
+.box__form__check--disable span {
+    background-color: red;
+}
+
+.box__form__check--disable{
+    display: flex;
+}

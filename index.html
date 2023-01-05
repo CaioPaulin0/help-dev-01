@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+    <title>Senha Nova</title>
+</head>
+<body>
+    
+    <div class="box">
+
+        <div class="box__info">
+
+            <div class="box__info__text">
+                <p>Digite sua senha nova</p>
+
+                <span>Sua senha deve conter:</span>
+            </div>
+
+    
+            <div class="box__info__check">
+
+                <span id="checkRules"></span>
+
+                <p id="a1" class="box__form__check--disable">
+                    <span></span>
+                    letra maiúscula</p>
+                <p id="a2" class="box__form__check--disable">
+                    <span></span>
+                    letra minúscula</p>
+                <p id="a3" class="box__form__check--disable">
+                    <span></span>
+                    numeros</p>
+            </div>
+
+        </div>
+        <form method="post" id="form" class="box__form">
+            <div>
+                <input type="text" id="password" placeholder="Senha nova">
+                <input type="text" id="passcheck" placeholder="Repita a nova senha">
+            </div>
+            <p id="textPass"></p>
+            <button type="submit">cadastrar</button>
+        </form>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
